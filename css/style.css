@@ -309,5 +309,10 @@ body {
   }
 /**End project styling*/
 
-/***/
-/***/
+/**Random styling*/
+#whatToPut{
+  width: 80%;
+  margin: 0 auto;
+  text-align: left;
+}
+/**End random styling*/
