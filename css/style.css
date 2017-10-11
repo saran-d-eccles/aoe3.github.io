@@ -211,6 +211,10 @@ body {
 }*/
 
 /**Image links styling*/
+#picMenu{
+  display: none;
+}
+
 #picMenu div{
   margin-top: 1.5%;
 }
