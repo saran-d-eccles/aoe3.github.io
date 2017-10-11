@@ -1,25 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<link type="text/css" rel="stylesheet" href="styles/foundation/foundation.min.css"/>
-	<link type="text/css" rel="stylesheet" href="styles/timeline.css"/>
-	<link type="text/css" rel="stylesheet" href="styles/stylesheet.css"/>
-
-	<title>Andrew Eccles</title>
-
-</head>
-
-<body>
-	<script type="text/javascript" src="scripts/jquery-1.12.0.min.js"></script>
-	<script type="text/javascript" src="scripts/jquery.animate-colors-min.js"></script>
-	<script type="text/javascript" src="scripts/timeline.js"></script> <!-- Resource jQuery -->
-	<script type="text/javascript" src="scripts/modernizr.js"></script>
-	<script type="text/javascript" src="scripts/foundation/vendor/foundation.min.js"></script>
-	<script type="text/javascript" src="scripts/main.js"></script>
-
-	
-</body>
+<html>
+    <head>
+    	<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <title>Welcome</title>
+    </head>
+	<body>
+		<div id="loadScreen">
+		    <p id="loadMe">Loading</p>
+		    <div class="game">
+		      <div class="player_one"></div>
+		      <div class="player_two"></div>
+		      <div class="ball"></div>
+		    </div>
+		</div>
+		<div id="picMenu">
+			<a href="files/aboutme.html">
+		  		<div class="crop">
+		  			<img class="pic" src="images/wushu.jpg">
+		  			<p class="caption">ABOUT ME</p>
+				</div>
+		  	</a>
+		  	<a href="files/projects.html">
+		  		<div class="crop">
+		  			<img class="pic" src="images/spline.png">
+		  			<p class="caption">PROJECTS</p>
+				</div>
+		  	</a>
+		  	<a href="files/random.html">
+		  		<div class="crop">
+		  			<img class="pic" src="images/film.png">
+		  			<p class="caption">RANDOM</p>
+				</div>
+		  	</a>
+		</div>
+	  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+	  <script src="js/loading.js"></script>
+	</body>
 </html>
