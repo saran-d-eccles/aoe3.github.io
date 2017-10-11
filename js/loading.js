@@ -1,5 +1,6 @@
 $(window).load(function() {
     $('#loadScreen').hide();
+    $('#picMenu').show();
 });
 
 // for testing purposes
